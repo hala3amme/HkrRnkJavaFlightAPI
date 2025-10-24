@@ -11,6 +11,7 @@ import jakarta.persistence.Id;
 
 @Entity
 public class Flight {
+    
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
